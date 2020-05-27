@@ -1,88 +1,89 @@
 const diceFaces = [
   "https://bit.ly/dice-unknown",
-  //MATERIAL - RED 1
+  //MATERIAL - GREEN 1
   //Plastic
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616437/Material-100_x100-04_dznrm4.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590748/Dice%20Faces%20on%20Online%20Invention%20Game/1%20Material/Material-100_x100-04_otlqe0.png",
   //Edible
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616437/Material-100_x100-05_nze09o.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590750/Dice%20Faces%20on%20Online%20Invention%20Game/1%20Material/Material-100_x100-05_zvsk8t.png",
   //Organic
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616437/Material-100_x100-06_lbz6ui.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590748/Dice%20Faces%20on%20Online%20Invention%20Game/1%20Material/Material-100_x100-06_jtuynm.png",
   //Paper
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616437/Material-100_x100-01_nxuwlk.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590749/Dice%20Faces%20on%20Online%20Invention%20Game/1%20Material/Material-100_x100-01_lgpdpl.png",
   //Metal
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616436/Material-100_x100-02_tpybpi.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590748/Dice%20Faces%20on%20Online%20Invention%20Game/1%20Material/Material-100_x100-02_h97ipn.png",
   //Wood
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616436/Material-100_x100-03_aom9pj.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590749/Dice%20Faces%20on%20Online%20Invention%20Game/1%20Material/Material-100_x100-03_f6w9bu.png",
 
   //MOTIVE POWER - YELLOW 2
   //Electric
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616450/Motive_Power-100_x_100-04_ebwkeq.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590776/Dice%20Faces%20on%20Online%20Invention%20Game/2%20Motive%20Power/Motive_Power-100_x_100-04_rvcd3o.png",
   //Manual
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616449/Motive_Power-100_x_100-02_oayuxs.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590758/Dice%20Faces%20on%20Online%20Invention%20Game/2%20Motive%20Power/Motive_Power-100_x_100-02_muxmmd.png",
   //Solar
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616449/Motive_Power-100_x_100-06_eauc07.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590754/Dice%20Faces%20on%20Online%20Invention%20Game/2%20Motive%20Power/Motive_Power-100_x_100-06_kw9prf.png",
   //Wind
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616449/Motive_Power-100_x_100-01_acbqgj.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590758/Dice%20Faces%20on%20Online%20Invention%20Game/2%20Motive%20Power/Motive_Power-100_x_100-01_kybgt6.png",
   //Water
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616449/Motive_Power-100_x_100-03_bwq3qy.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590758/Dice%20Faces%20on%20Online%20Invention%20Game/2%20Motive%20Power/Motive_Power-100_x_100-03_ssx7bc.png",
   //Clockwork
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616449/Motive_Power-100_x_100-05_zwchd7.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590768/Dice%20Faces%20on%20Online%20Invention%20Game/2%20Motive%20Power/Motive_Power-100_x_100-05_y76gqv.png",
 
-  //SCALE - GREEN 3
+  //SCALE - BLUE 3
   //Giant
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616384/Scale-100_x_100-06_iwbwvn.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590753/Dice%20Faces%20on%20Online%20Invention%20Game/3%20Scale/Scale-100_x_100-06_fmp9rj.png",
   //Pocket
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616383/Scale-100_x_100-02_kgtog5.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590755/Dice%20Faces%20on%20Online%20Invention%20Game/3%20Scale/Scale-100_x_100-02_xntwax.png",
   //Mini
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616383/Scale-100_x_100-04_jnqfws.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590767/Dice%20Faces%20on%20Online%20Invention%20Game/3%20Scale/Scale-100_x_100-04_fsbfd0.png",
   //Wearable
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616383/Scale-100_x_100-03_rdkcdn.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590754/Dice%20Faces%20on%20Online%20Invention%20Game/3%20Scale/Scale-100_x_100-03_y2yxco.png",
   //Inhabitable
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616383/Scale-100_x_100-05_mi4kby.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590756/Dice%20Faces%20on%20Online%20Invention%20Game/3%20Scale/Scale-100_x_100-05_s4vjxo.png",
   //Portable
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616382/Scale-100_x_100-01_xwofbe.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590752/Dice%20Faces%20on%20Online%20Invention%20Game/3%20Scale/Scale-100_x_100-01_ofdxfv.png",
 
-  //DEVICE - BLUE 4
+  //DEVICE - PURPLE 4
   //Art
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616396/Device-100_x_100-01_gp2scy.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590766/Dice%20Faces%20on%20Online%20Invention%20Game/4%20Device/Device-100_x_100-01_bvtfug.png",
   //Vehicle
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616397/Device-100_x_100-06_tpee5i.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590763/Dice%20Faces%20on%20Online%20Invention%20Game/4%20Device/Device-100_x_100-06_l8rvl2.png",
   //Tool
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616397/Device-100_x_100-02_i1hlyf.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590765/Dice%20Faces%20on%20Online%20Invention%20Game/4%20Device/Device-100_x_100-02_r45kvh.png",
   //Game
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616396/Device-100_x_100-03_qre686.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590766/Dice%20Faces%20on%20Online%20Invention%20Game/4%20Device/Device-100_x_100-03_acgh4f.png",
   //Computer
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616396/Device-100_x_100-05_jfrffx.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590761/Dice%20Faces%20on%20Online%20Invention%20Game/4%20Device/Device-100_x_100-05_u3tecx.png",
   //Robot
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616396/Device-100_x_100-04_kiyqbx.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590763/Dice%20Faces%20on%20Online%20Invention%20Game/4%20Device/Device-100_x_100-04_jsaipy.png",
 
   //CONSUMER - ORANGE 5
   //Personal
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616410/Consumer-_100_x_100-04_qtx1mp.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590751/Dice%20Faces%20on%20Online%20Invention%20Game/5%20Consumer/Consumer-_100_x_100-04_pviz0q.png",
   //Home
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616410/Consumer-_100_x_100-03_iq0dy3.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590751/Dice%20Faces%20on%20Online%20Invention%20Game/5%20Consumer/Consumer-_100_x_100-03_t52wbx.png",
   //Public
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616409/Consumer-_100_x_100-02_nm1poh.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590752/Dice%20Faces%20on%20Online%20Invention%20Game/5%20Consumer/Consumer-_100_x_100-02_g3abxk.png",
   //Family
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616409/Consumer-_100_x_100-01_po2icu.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590754/Dice%20Faces%20on%20Online%20Invention%20Game/5%20Consumer/Consumer-_100_x_100-01_y81hzn.png",
   //Office
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616409/Consumer-_100_x_100-05_f0exbj.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590751/Dice%20Faces%20on%20Online%20Invention%20Game/5%20Consumer/Consumer-_100_x_100-05_gqx2is.png",
   //Industrial
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616409/Consumer-_100_x_100-06_lwp6fp.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590751/Dice%20Faces%20on%20Online%20Invention%20Game/5%20Consumer/Consumer-_100_x_100-06_sedev8.png",
 
   //ACTION - PINK 6
   //Random
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616365/Action-_100_x_100-03_c3k2uh.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590770/Dice%20Faces%20on%20Online%20Invention%20Game/6%20Action/Action-_100_x_100-03_fntt11.png",
   //Flying
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616365/Action-_100_x_100-02_waec4l.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590768/Dice%20Faces%20on%20Online%20Invention%20Game/6%20Action/Action-_100_x_100-02_fuzldi.png",
   //Stealth
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616365/Action-_100_x_100-05_uqaosl.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590769/Dice%20Faces%20on%20Online%20Invention%20Game/6%20Action/Action-_100_x_100-05_qthdns.png",
   //Underwater
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616365/Action-_100_x_100-01_nxnewa.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590768/Dice%20Faces%20on%20Online%20Invention%20Game/6%20Action/Action-_100_x_100-01_cnhils.png",
   //Self-Build
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616365/Action-_100_x_100-04_wzrwdg.png",
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590770/Dice%20Faces%20on%20Online%20Invention%20Game/6%20Action/Action-_100_x_100-04_yqd2jy.png",
   //Disposable
-  "https://res.cloudinary.com/dmnr5acns/image/upload/v1589616365/Action-_100_x_100-06_gqz9ys.png"
+  "https://res.cloudinary.com/dmnr5acns/image/upload/v1590590768/Dice%20Faces%20on%20Online%20Invention%20Game/6%20Action/Action-_100_x_100-06_lshxob.png"
+
 ];
 
 for (const element of diceFaces) {
