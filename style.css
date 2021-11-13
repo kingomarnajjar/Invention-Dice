@@ -53,19 +53,19 @@ h1 {
 }
 
 
-div {
+button {
   font-size: 16px;
   color: #fff;
   background-color: #01944C;
   height: auto;
   border: none;
-  padding: 1px 80px;
+  padding: 10px 40px;
   border-radius: 50px;
   cursor: pointer;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-=}
-div:hover {
+ }
+button:hover {
   background-color: #fff;
   color: #303030;
 }
