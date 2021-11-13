@@ -7,17 +7,30 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="./style.css">
 
+
 </head>
-<body style="height: 214px; width: 900px; box-sizing: border-box; display: flex; align-items: center; justify-content: right;  margin: 1em 5em; padding: 1em;" data-pen-title="Dice">
+<body style="max-width: 100%; box-sizing: border-box; display: flex; align-items: center; justify-content: left;  margin: 1em 5em; padding: 1em; " data-pen-title="Dice">
 <!-- partial:index.partial.html -->
-<h1 class="header">Invention Game</h1>
-<!-- Shows a question mark whilst loading--><img src="https://bit.ly/dice-unknown" id="dice"/><img src="https://bit.ly/dice-unknown" id="dice2"/><img src="https://bit.ly/dice-unknown" id="dice3"/><img src="https://bit.ly/dice-unknown" id="dice4"/><img src="https://bit.ly/dice-unknown" id="dice5"/><img src="https://bit.ly/dice-unknown" id="dice6"/>
-<!-- When you click the div, it executes rollThatDice()-->
-<div onclick="rollThatDice()">Roll That Dice</div>
+<!-- <h1 class="header">Invention Game</h1> -->
+<!-- Shows a question mark whilst loading-->
+<div>
+
+  <img src="https://bit.ly/dice-unknown" id="dice"/>
+  <img src="https://bit.ly/dice-unknown" id="dice2"/>
+  <img src="https://bit.ly/dice-unknown" id="dice3"/>
+  <img src="https://bit.ly/dice-unknown" id="dice4"/>
+  <img src="https://bit.ly/dice-unknown" id="dice5"/>
+  <img src="https://bit.ly/dice-unknown" id="dice6"/>
+</div>
+  <!-- When you click the div, it executes rollThatDice()-->
+  <button onclick="rollThatDice()">Roll That Dice</button>
+  
+
 <!-- A link to the roll sound you hear-->
 <audio src="https://bit.ly/dice-sound" id="audio"></audio>
 <!-- partial -->
   <script  src="./script.js"></script>
 
 </body>
+
 </html>
